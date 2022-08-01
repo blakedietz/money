@@ -57,7 +57,7 @@ Money.to_string(Money.new(1_234_50, :USD), strip_insignificant_zeros: true)  # "
 Bring `Money` to your Ecto project.
 The underlying database type is `integer`
 
-1.  Set a default currency in `config.ex`:
+1.  Set a default currency in `config.exs`:
 
     ```elixir
     config :money,
